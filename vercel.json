@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/research",
+      "destination": "/research"
+    },
+    {
+      "source": "/publications",
+      "destination": "/publications"
+    },
+    {
+      "source": "/projects",
+      "destination": "/projects"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/$1"
+    }
+  ]
+} 
